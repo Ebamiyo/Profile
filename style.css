@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background: linear-gradient(100deg, cyan, red, orange);
+    padding: 1.5rem;
+    color: white;
+}
+.main_container {
+    padding: 2rem;
+    background-color: #FF5F00;
+    border-radius: 0.5rem;
+}
+
+.top_container {
+    display: flex;
+    /* padding-top: 2rem; */
+}
+
+.first_tc {
+    display: flex;
+    flex: 30%;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon {
+  width: 50px;
+  /* height: 40px; */
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.nav {
+padding-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+    margin-left: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+a:hover {
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+.profile_image {
+    width:350px;
+    height: 350px;
+}
+.middle_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_container {
+    display: flex;
+}
+
+.skills {
+    display: inline-block;
+    border: 0.9px cyan solid;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20;
+}
+
+h1 {
+    color: #FDFF00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.bottom_container_heading {
+    color: #FDFF00;
+    font-size: 1.5rem;
+    text-transform: ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+    padding-top: 0.7rem;
+}
+
+.ibc {
+    width: 60%;
+}
+
+.s-inside_bottom_container {
+    width: 50%;
+}
